@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Zx3 Systems</title>
+  <meta name="description" content="About Xssandra Aarohi and Zx3 Systems — mission, contact, and verification.">
+  <link rel="canonical" href="https://zx3systems.org/about/">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About — Zx3 Systems">
+  <meta property="og:description" content="About Xssandra Aarohi and Zx3 Systems — mission, contact, and verification.">
+  <meta property="og:url" content="https://zx3systems.org/about/">
+  <meta property="og:type" content="website">
+  <!-- Prevent flash of wrong theme -->
+  <script>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (t) { document.documentElement.setAttribute('data-theme', t); }
+      else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div class="site-wrapper">
+
+    <!-- ===== NAV ===== -->
+    <nav class="site-nav">
+      <a href="/" class="site-nav__logo">Zx3 Systems</a>
+      <ul class="site-nav__links">
+        <li><a href="/framework/">Framework</a></li>
+        <li><a href="/research/">Research</a></li>
+        <!-- <li><a href="/tools/">Tools</a></li> -->
+        <!-- <li><a href="/writing/">Writing</a></li> -->
+        <li><a href="/about/" aria-current="page">About</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode">&#9684;</button></li>
+      </ul>
+    </nav>
+
+    <!-- ===== PAGE CONTENT ===== -->
+    <main>
+      <div class="page-header">
+        <h1>About</h1>
+      </div>
+
+      <!-- Researcher Bio -->
+      <section class="section reveal">
+        <p class="section__title">Researcher</p>
+        <div class="content-prose">
+          <h2>Xssandra Aarohi</h2>
+          <p>
+            Independent researcher developing interconnected frameworks spanning
+            AI safety, consciousness theory, ethical governance, and measurement
+            formalization. Working at the intersection of formal specification
+            and practical application.
+          </p>
+          <p>
+            The work is conducted solo under significant resource constraints,
+            primarily from mobile devices — a constraint that shapes the emphasis
+            on clarity, minimalism, and frameworks that work without institutional
+            infrastructure.
+          </p>
+        </div>
+      </section>
+
+      <!-- Organization -->
+      <section class="section section--alt reveal">
+        <p class="section__title">Organization</p>
+        <div class="content-prose">
+          <h2>Zx3 Systems</h2>
+          <p>
+            Zx3 Systems is an independent research organization building
+            multi-valence frameworks for ethical governance, AI safety,
+            and human thriving. The work produces formal specifications,
+            practical tools, and accessible writing — all published under
+            open licenses.
+          </p>
+          <p>
+            The organizational mission: develop infrastructure that makes
+            good decisions easier than bad ones, and make that infrastructure
+            freely available to anyone who needs it.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section reveal">
+        <p class="section__title">Contact</p>
+        <div class="content-prose">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:XssandraAarohi@proton.me">XssandraAarohi@proton.me</a>
+          </p>
+          <p>
+            For research inquiries, collaboration proposals, or institutional
+            contact. Response times may vary — the work is solo and resources
+            are limited.
+          </p>
+        </div>
+      </section>
+
+      <!-- Roadmap -->
+      <section class="section section--alt reveal">
+        <p class="section__title">Roadmap</p>
+        <div class="content-prose">
+          <h2>Where the Work Is Going</h2>
+          <p>
+            The research program develops incrementally. Current priorities:
+          </p>
+          <ul>
+            <li>Practical assessment tools based on the Zx3 Core Specification</li>
+            <li>Accessible writing that bridges formal research and public understanding</li>
+            <li>Extended framework applications to AI safety and governance domains</li>
+          </ul>
+          <p>
+            New publications and tools appear as they're ready. Subscribe or
+            check back for updates.
+          </p>
+        </div>
+      </section>
+
+      <!-- SHA256 Verification -->
+      <section class="section reveal">
+        <p class="section__title">Verification</p>
+        <div class="content-prose">
+          <h2>SHA256 Document Verification</h2>
+          <p>
+            All published documents are timestamped with SHA256 hashes to
+            establish priority and verify document integrity. To verify a
+            document, compute its SHA256 hash and compare it against the
+            values listed below.
+          </p>
+          <div class="sha256-block">
+            <p><strong>Zx3 Core Specification v1.0</strong></p>
+            <p>Published: November 2025</p>
+            <p>SHA256: [SHA256 hash will be added when PDF is finalized]</p>
+          </div>
+          <p class="mt-xl">
+            To compute a SHA256 hash: <code>sha256sum filename.pdf</code> (Linux/Mac)
+            or use an online SHA256 calculator.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div>&copy; 2026 Xssandra Aarohi &middot; CC-BY-SA 4.0</div>
+      <div class="site-footer__links">
+        <a href="mailto:XssandraAarohi@proton.me">Contact</a>
+        <a href="#">Substack</a>
+        <a href="#">GitHub</a>
+      </div>
+    </footer>
+
+  </div>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
